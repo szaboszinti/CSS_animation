@@ -1,0 +1,61 @@
+.box{
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box1{
+    background-color: darkmagenta;
+    transition: background-color 1s;
+    
+}
+.box1:hover{
+    background-color: aquamarine;
+    
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: beige;
+}
+
+.box2{
+    background-color: darkviolet;
+    transition: transform 3s;
+}
+.box2:hover{
+    transform: rotate(45deg);
+}
+
+.box3{
+    background-color: darkgreen;
+    transition: width 1s, height 2s, background-color 3s;
+}
+.box3:hover{
+    width: 200px;
+    height: 160px;
+    background-color: aquamarine;
+}
+.box4{
+    background-color: blue;
+    transition: transform 2s;
+    
+}
+.box4:hover{
+    transform: scale(1.5);
+    background-color: aquamarine;
+}
+
+.box5{
+    background-color: cadetblue;
+    transition: transform 5s;
+    
+}
+
+.box5:hover{
+    transform: translateX(200px);
+    background-color: aquamarine;
+}
