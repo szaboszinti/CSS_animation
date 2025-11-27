@@ -3,6 +3,7 @@
     width: 100px;
     height: 100px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 .box1{
@@ -58,4 +59,19 @@ p{
 .box5:hover{
     transform: translateX(200px);
     background-color: aquamarine;
+}
+
+a{
+    gap: 6px;
+    display: inline-flex;
+    margin: 40px;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+    background-color: azure;
+    transition: transform 1s ease, box-shadow ease 0.3s, color 0.5s;
+}
+
+a:hover{
+    transform: translateY(-6px) translateX(6px) scale(1.5)
 }
